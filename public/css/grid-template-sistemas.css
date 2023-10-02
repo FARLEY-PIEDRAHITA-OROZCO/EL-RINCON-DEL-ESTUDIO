@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.2rem;
+  min-height: 100%;
+}
+
+.grid-container > * {
+  box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+}
+
+.header {
+    grid-area: header;
+}
+
+.navbar {
+    overflow-x: hidden;
+    grid-area: navbar;
+}
+
+.sidebar {
+    overflow-x: hidden;
+    grid-area: sidebar;
+}
+
+.main {
+    overflow-x: hidden;
+    grid-area: main;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+  grid-template:
+    "header"
+    "navbar"
+    "main"
+    "sidebar"
+    "footer"  ;
+}
+
+@media (min-width: 1024px) {
+    .grid-container {
+      grid-template:
+        "header  header header"  60px
+        "navbar  main   sidebar" 87vh
+        "footer  footer footer"  auto /
+        200px    auto   200px;
+    }
+
+    .h1-navbar{
+        font-size: 20px;
+    }
+
+    .h1-sidebar{
+        font-size: 20px;
+    }
+
+    iframe{
+        margin: auto;
+    }
+
+    .img-1{
+        width: 500px;
+        height: auto;
+    }
+
+    .img-2{
+        width: 500px;
+        height: 300px;
+    }
+
+    .img-3{
+        width: 500px;
+        height: 300px;
+    }
+
+
+  }
+
+@media (max-width: 768px) {
+    .grid-container {
+      grid-template:
+      "header header"
+      "navbar navbar"
+      "sidebar sidebar"
+      "main main"
+      "footer footer"  ;
+    }
+
+    nav{
+        margin-top: 55px;
+    }
+
+    iframe{
+        width: auto;
+        height: auto;
+    }
+
+    .img-1{
+        height: 400px;
+    }
+
+    .img-2{
+        width: 400px;
+        height: 200px;
+    }
+
+    .img-3{
+        width: 400px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 426px) {
+    .grid-container {
+      grid-template:
+      "header header"
+      "navbar navbar"
+      "sidebar sidebar"
+      "main main"
+      "footer footer"  ;
+    }
+
+    nav{
+        margin-top: 55px;
+    }
+
+    iframe{
+        width: auto;
+        height: auto;
+    }
+
+    .img-1{
+        height: 200px;
+    }
+
+    .img-2{
+        width: 300px;
+        height: 200px;
+    }
+}
+

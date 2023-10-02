@@ -1,0 +1,117 @@
+.switch{
+    background-color: #343D5B;
+    border-radius: 1000px;
+    border: none;
+    position: relative;
+    display: flex;
+    outline: none;
+    margin-top: 6px;
+    &::after{
+        content: "";
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        background: #f1f1f1;
+        top: 0;
+        left: 0;
+        right: unset;
+        border-radius: 100px;
+        transition: .3s ease all;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, .2);
+    }
+    &.active{
+        background: orange;
+        color: #000;
+        &::after{
+            right: 0;
+            left: unset;
+        }
+    }
+    .span{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        display: block;
+        background: none;
+        color: #fff;
+    }
+}
+
+body.dark{
+    background-color: white;
+}
+
+body.dark .logo{
+    color: #042863;
+}
+
+body.dark header{
+    background: #fff;
+    color: black;
+}
+
+body.dark .ul-menu .a-menu{
+    color: #000;
+
+}
+
+body.dark .a-menu:hover{
+    background-color: #042863;
+    color: white;
+}
+
+body.dark .ham span{
+    background-color: black;
+}
+
+body.dark footer{
+    color: white;
+    background-color: #042863;
+}
+
+/* Formulario de contacto */
+body.dark h3{
+    color: #000;
+}
+
+body.dark label{
+    color: #000;
+}
+
+body.dark textarea{
+    color: #000;
+}
+
+body.dark .contact-form form button,
+.contact-form form input,
+.contact-form form textarea{
+    color: white;
+}
+
+body.dark .contact-form form input,
+.contact-form form textarea{
+    color: black;
+}
+
+body.dark .contact-form form button {
+    background: #2e518b;
+}
+
+body.dark .contact-form form button:hover,
+.contact-form form button:focus{
+    background-color: #042863;
+    color: white;
+}
+
+body.dark .contact-info{
+    background: #2e518b;
+}
+
+
+/* Footer */
+body.dark footer{
+    color: white;
+    background-color: #042863;
+}
+
