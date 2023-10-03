@@ -42,6 +42,36 @@ Route::get('/software/caracterizacion-de-procesos/analisis-de-los-procesos-a-niv
 
 /* ________________________________________________________________________________________________*/
 
+/* INTRODUCCIÓN A LA ALGORITMIA */
+Route::get('/software/introduccion-a-la-algoritmia/introduccion', function () {
+    return view('software.introduccion-a-la-algoritmia.introduccion');
+});
+/* ________________________________________________________________________________________________*/
+
+/* SOLUCIÓN DE PROBLEMAS CON ALGORITMOS */
+Route::get('/software/solucion-de-problemas-con-algoritmos/introduccion-solucion-de-problemas-con-algoritmos', function () {
+    return view('software.solucion-de-problemas-con-algoritmos.introduccion-solucion-de-problemas-con-algoritmos');
+});
+/* ________________________________________________________________________________________________*/
+
+/* CODIFICACIÓN DE ALGORITMOS */
+Route::get('/software/codificacion-de-algoritmos/introduccion-codificacion-de-algoritmos', function () {
+    return view('software.codificacion-de-algoritmos.introduccion-codificacion-de-algoritmos');
+});
+/* ________________________________________________________________________________________________*/
+
+/* LA CIENCIA DE LAS COSAS */
+Route::get('/software/la-ciencia-de-las-cosas/introduccion-la-ciencia-de-las-cosas', function () {
+    return view('software.la-ciencia-de-las-cosas.introduccion-la-ciencia-de-las-cosas');
+});
+/* ________________________________________________________________________________________________*/
+
+/* TIC */
+Route::get('/software/tic/introduccion-tic', function () {
+    return view('software.tic.introduccion-tic');
+});
+/* ________________________________________________________________________________________________*/
+
 Route::get('/software/diagramas-de-requisitos/introduccion-diagramas-de-requisitos', function () {
     return view('software.diagramas-de-requisitos.introduccion-diagramas-de-requisitos');
 });

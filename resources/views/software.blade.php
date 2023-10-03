@@ -55,6 +55,29 @@
     </div>
 
     <div class="box-1">
+        <img src="images/software/CF12.svg" alt="">
+        <a class="boton" href="/software/introduccion-a-la-algoritmia/introduccion"><p class="p-1">INTRODUCCIÓN A LA ALGORITMIA</p></a>
+    </div>
+    <div class="box-1">
+        <img src="images/software/CF13.svg" alt="">
+        <a class="boton" href="/software/solucion-de-problemas-con-algoritmos/introduccion-solucion-de-problemas-con-algoritmos"><p class="p-1">SOLUCIÓN DE PROBLEMAS CON ALGORITMOS</p></a>
+    </div>
+    <div class="box-1">
+        <img src="images/software/CF14.svg" alt="">
+        <a class="boton" href="/software/codificacion-de-algoritmos/introduccion-codificacion-de-algoritmos"><p class="p-1">CODIFICACIÓN DE ALGORITMOS</p></a>
+    </div>
+    </div>
+    <div class="box-1">
+        <img src="images/software/fisica_CF1.svg" alt="">
+        <a class="boton" href="/software/la-ciencia-de-las-cosas/introduccion-la-ciencia-de-las-cosas"><p class="p-1">LA CIENCIA DE LAS COSAS</p></a>
+    </div>
+
+    <div class="box-1">
+        <img src="images/software/CF1.svg" alt="">
+        <a class="boton" href="/software/tic/introduccion-tic"><p class="p-1">TIC</p></a>
+    </div>
+
+    <div class="box-1">
         <img src="images/software/CF8.png" alt="">
         <a class="boton" href="/software/matematicas-nivel-basico/introduccion-matematicas-nivel-basico"><p class="p-1">MATEMÁTICAS NIVEL BASICO</p></a>
     </div>
