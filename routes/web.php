@@ -46,6 +46,12 @@ Route::get('/software/caracterizacion-de-procesos/analisis-de-los-procesos-a-niv
 Route::get('/software/introduccion-a-la-algoritmia/introduccion', function () {
     return view('software.introduccion-a-la-algoritmia.introduccion');
 });
+Route::get('/software/introduccion-a-la-algoritmia/introduccion-a-la-algoritmia', function () {
+    return view('software.introduccion-a-la-algoritmia.introduccion-a-la-algoritmia');
+});
+Route::get('/software/introduccion-a-la-algoritmia/logica-matematica', function () {
+    return view('software.introduccion-a-la-algoritmia.logica-matematica');
+});
 /* ________________________________________________________________________________________________*/
 
 /* SOLUCIÓN DE PROBLEMAS CON ALGORITMOS */
