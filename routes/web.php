@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 /* Rutas principales */
 Route::view('/', 'software');
 Route::view('/contacto', 'contacto');
+Route::view('/bases-de-datos', 'bases-de-datos');
 
 /* Rutas de la carpeta software */
 /* CARACTERIZACION DE PROCESOS */
@@ -168,5 +169,5 @@ Route::get('/software/validacion-de-requisitos/introduccion-validacion-de-requis
     return view('software.validacion-de-requisitos.introduccion-validacion-de-requisitos');
 });
 
-
+/* BASES DE DATOS */
 
