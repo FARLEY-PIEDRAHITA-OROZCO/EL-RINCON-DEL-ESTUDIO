@@ -19,6 +19,7 @@ Route::view('/', 'software');
 Route::view('/contacto', 'contacto');
 Route::view('/bases-de-datos', 'bases-de-datos');
 
+
 /* Rutas de la carpeta software */
 /* CARACTERIZACION DE PROCESOS */
 Route::get('/software/caracterizacion-de-procesos/introduccion-caracterizacion-de-procesos', function () {
@@ -170,4 +171,41 @@ Route::get('/software/validacion-de-requisitos/introduccion-validacion-de-requis
 });
 
 /* BASES DE DATOS */
+/* INTRODUCCIÓN A BASES DE DATOS MYSQL */
+Route::get('/bases-de-datos/introduccion-a-bases-de-datos/introduccion-bases-de-datos', function () {
+    return view('bases-de-datos.introduccion-a-bases-de-datos.introduccion-bases-de-datos');
+});
+Route::get('/bases-de-datos/introduccion-a-bases-de-datos/conceptos-iniciales', function () {
+    return view('bases-de-datos.introduccion-a-bases-de-datos.conceptos-iniciales');
+});
+Route::get('/bases-de-datos/introduccion-a-bases-de-datos/modelos-de-datos', function () {
+    return view('bases-de-datos.introduccion-a-bases-de-datos.modelos-de-datos');
+});
+Route::get('/bases-de-datos/introduccion-a-bases-de-datos/sistemas-de-gestion-de-bases-de-datos', function () {
+    return view('bases-de-datos.introduccion-a-bases-de-datos.sistemas-de-gestion-de-bases-de-datos');
+});
+/* ________________________________________________________________________________________________*/
 
+/* MYSQL WORKBENCH */
+Route::get('/bases-de-datos/mysql-workbench/introduccion-mysql-workbench', function () {
+    return view('bases-de-datos.mysql-workbench.introduccion-mysql-workbench');
+});
+/* ________________________________________________________________________________________________*/
+
+/*  ESTUDIO DE CASO IMPORT TECH S.A.S */
+Route::get('/bases-de-datos/estudio-de-caso-import-tech/introduccion-estudio-de-caso-import-tech', function () {
+    return view('bases-de-datos.estudio-de-caso-import-tech.introduccion-estudio-de-caso-import-tech');
+});
+/* ________________________________________________________________________________________________*/
+
+/*  EL LENGUAJE SQL */
+Route::get('/bases-de-datos/el-lenguaje-sql/introduccion-el-lenguaje-sql', function () {
+    return view('bases-de-datos.el-lenguaje-sql.introduccion-el-lenguaje-sql');
+});
+/* ________________________________________________________________________________________________*/
+
+/* PRUEBAS DE VALIDACION DE DATOS DE MYSQL */
+Route::get('/bases-de-datos/pruebas-de-validacion-de-datos-mysql/introduccion-pruebas-de-validacion-de-datos-mysql', function () {
+    return view('bases-de-datos.pruebas-de-validacion-de-datos-mysql.introduccion-pruebas-de-validacion-de-datos-mysql');
+});
+/* ________________________________________________________________________________________________*/
