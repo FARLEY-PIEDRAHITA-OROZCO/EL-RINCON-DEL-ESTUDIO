@@ -3,6 +3,7 @@
     <a class="logo" href="#">EL RINCÓN DEL ESTUDIO</a>
     <ul class="ul-menu">
         <li class="li-menu"><a class="a-menu" href="/">Análisis y desarrollo de software</a></li>
+        <li class="li-menu"><a class="a-menu" href="/">Bases de datos</a></li>
         <li class="li-menu"><a class="a-menu" href="/contacto">Contacto</a></li>
         <li>
             <button class="switch" id="switch">
