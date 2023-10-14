@@ -58,6 +58,12 @@ Route::get('/software/introduccion-a-la-algoritmia/logica-matematica', function 
 Route::get('/software/solucion-de-problemas-con-algoritmos/introduccion-solucion-de-problemas-con-algoritmos', function () {
     return view('software.solucion-de-problemas-con-algoritmos.introduccion-solucion-de-problemas-con-algoritmos');
 });
+Route::get('/software/solucion-de-problemas-con-algoritmos/metodologia-de-algoritmos', function () {
+    return view('software.solucion-de-problemas-con-algoritmos.metodologia-de-algoritmos');
+});
+Route::get('/software/solucion-de-problemas-con-algoritmos/diagramas-de-flujo', function () {
+    return view('software.solucion-de-problemas-con-algoritmos.diagramas-de-flujo');
+});
 /* ________________________________________________________________________________________________*/
 
 /* CODIFICACIÓN DE ALGORITMOS */
