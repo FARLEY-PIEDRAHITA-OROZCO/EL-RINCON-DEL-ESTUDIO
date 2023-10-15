@@ -202,6 +202,9 @@ Route::get('/bases-de-datos/mysql-workbench/software-necesario', function () {
 Route::get('/bases-de-datos/estudio-de-caso-import-tech/introduccion-estudio-de-caso-import-tech', function () {
     return view('bases-de-datos.estudio-de-caso-import-tech.introduccion-estudio-de-caso-import-tech');
 });
+Route::get('/bases-de-datos/estudio-de-caso-import-tech/caso-de-estudio', function () {
+    return view('bases-de-datos.estudio-de-caso-import-tech.caso-de-estudio');
+});
 /* ________________________________________________________________________________________________*/
 
 /*  EL LENGUAJE SQL */
