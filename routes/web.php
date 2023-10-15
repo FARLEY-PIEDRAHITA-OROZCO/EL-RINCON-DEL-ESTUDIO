@@ -190,6 +190,12 @@ Route::get('/bases-de-datos/introduccion-a-bases-de-datos/sistemas-de-gestion-de
 Route::get('/bases-de-datos/mysql-workbench/introduccion-mysql-workbench', function () {
     return view('bases-de-datos.mysql-workbench.introduccion-mysql-workbench');
 });
+Route::get('/bases-de-datos/mysql-workbench/descarga-e-instalacion-mysql', function () {
+    return view('bases-de-datos.mysql-workbench.descarga-e-instalacion-mysql');
+});
+Route::get('/bases-de-datos/mysql-workbench/software-necesario', function () {
+    return view('bases-de-datos.mysql-workbench.software-necesario');
+});
 /* ________________________________________________________________________________________________*/
 
 /*  ESTUDIO DE CASO IMPORT TECH S.A.S */
