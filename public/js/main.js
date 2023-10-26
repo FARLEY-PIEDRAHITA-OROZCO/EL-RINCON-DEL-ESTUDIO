@@ -1,23 +1,16 @@
-const btnSwitch = document.querySelector('#switch');
+window.onscroll = function () {
+    scrollFunction();
+};
 
-btnSwitch.addEventListener('click', () =>{
-    document.body.classList.toggle('dark');
-    btnSwitch.classList.toggle('active');
-
-
-    // Guardamos en modo en localstorage.
-    if(document.body.classList.contains('dark')){
-        localStorage.setItem('dark-mode', 'true');
-    } else{
-        localStorage.setItem('dark-mode', 'false');
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("goTopButton").style.display = "block";
+    } else {
+        document.getElementById("goTopButton").style.display = "none";
     }
-});
+}
 
-// Obtenemos el modo actual.
-if(localStorage.getItem('dark-mode') === 'true')  {
-    document.body.classList.add('dark');
-    btnSwitch.classList.add('active');
-} else{
-    document.body.classList.remove('dark');
-    btnSwitch.classList.remove('active');
+function goTop() {
+    document.body.scrollTop = 0; // Para navegadores web
+    document.documentElement.scrollTop = 0; // Para Internet Explorer, Edge, Firefox, Chrome, etc.
 }

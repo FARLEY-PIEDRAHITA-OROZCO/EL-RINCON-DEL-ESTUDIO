@@ -49,5 +49,5 @@
 @endsection
 
 @section('aside')
-        @include('partials-software.introduccion-a-la-algoritmia.aside')
+        @include('partials-software.solucion-de-problemas-con-algoritmos.aside')
 @endsection

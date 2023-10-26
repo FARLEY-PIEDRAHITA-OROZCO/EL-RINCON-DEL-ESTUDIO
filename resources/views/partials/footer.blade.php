@@ -24,6 +24,6 @@
 <div class="box_copyright">
  <hr>
  <p>Todos los derechos reservados © 2023
-    <b>EL RINCÓN DEL ESTUDIO</b>
+    <b>EL RINCÓN DEL FARCHO</b>
 </p>
 </div>
