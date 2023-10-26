@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 /* Rutas principales */
 Route::view('/', 'software');
+Route::view('/cursos', 'cursos');
 
 
 /* Rutas de la carpeta software */
@@ -169,7 +170,12 @@ Route::get('/software/validacion-de-requisitos/introduccion', function () {
     return view('software.validacion-de-requisitos.introduccion');
 });
 
+// Rutas de la carpeta cursos
 /* BASES DE DATOS */
+Route::get('/cursos/bases-de-datos', function () {
+    return view('/cursos.bases-de-datos');
+});
+
 /* INTRODUCCIÓN A BASES DE DATOS MYSQL */
 Route::get('/bases-de-datos/introduccion-a-bases-de-datos/introduccion-bases-de-datos', function () {
     return view('bases-de-datos.introduccion-a-bases-de-datos.introduccion-bases-de-datos');
