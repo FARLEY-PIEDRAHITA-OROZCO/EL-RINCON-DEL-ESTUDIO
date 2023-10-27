@@ -177,20 +177,17 @@ Route::get('/cursos/bases-de-datos', function () {
 });
 
 /* INTRODUCCIÓN A BASES DE DATOS MYSQL */
-Route::get('/bases-de-datos/introduccion-a-bases-de-datos/introduccion-bases-de-datos', function () {
-    return view('bases-de-datos.introduccion-a-bases-de-datos.introduccion-bases-de-datos');
+Route::get('/cursos/bases-de-datos/introduccion-a-bases-de-datos-mysql/introduccion', function () {
+    return view('bases-de-datos.introduccion-a-bases-de-datos-mysql.introduccion');
 });
-Route::get('/bases-de-datos/introduccion-a-bases-de-datos/conceptos-iniciales', function () {
-    return view('bases-de-datos.introduccion-a-bases-de-datos.conceptos-iniciales');
+Route::get('/bases-de-datos/introduccion-a-bases-de-datos-mysql/conceptos-iniciales', function () {
+    return view('bases-de-datos.introduccion-a-bases-de-datos-mysql.conceptos-iniciales');
 });
-Route::get('/bases-de-datos/introduccion-a-bases-de-datos/modelos-de-datos', function () {
-    return view('bases-de-datos.introduccion-a-bases-de-datos.modelos-de-datos');
+Route::get('/bases-de-datos/introduccion-a-bases-de-datos-mysql/modelo-de-datos', function () {
+    return view('bases-de-datos.introduccion-a-bases-de-datos-mysql.modelo-de-datos');
 });
-Route::get('/bases-de-datos/introduccion-a-bases-de-datos/sistemas-de-gestion-de-bases-de-datos', function () {
-    return view('bases-de-datos.introduccion-a-bases-de-datos.sistemas-de-gestion-de-bases-de-datos');
-});
-Route::get('/bases-de-datos/introduccion-a-bases-de-datos/post', function () {
-    return view('bases-de-datos.introduccion-a-bases-de-datos.post');
+Route::get('/bases-de-datos/introduccion-a-bases-de-datos-mysql/sistemas-de-gestion', function () {
+    return view('bases-de-datos.introduccion-a-bases-de-datos-mysql.sistemas-de-gestion');
 });
 /* ________________________________________________________________________________________________*/
 

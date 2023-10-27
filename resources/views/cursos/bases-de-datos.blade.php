@@ -9,7 +9,7 @@
             </div>
             <div class="box-1">
                 <img src="/images/bases-de-datos/material1.png" alt="">
-                <a class="boton" href="/bases-de-datos/ingenieria-de-requisitos/introduccion"><p class="p-1">INTRODUCCIÓN A BASES DE DATOS MYSQL</p></a>
+                <a class="boton" href="/cursos/bases-de-datos/introduccion-a-bases-de-datos-mysql/introduccion"><p class="p-1">INTRODUCCIÓN A BASES DE DATOS MYSQL</p></a>
             </div>
             <div class="box-1">
                 <img src="/images/bases-de-datos/material2.png" alt="" >

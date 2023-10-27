@@ -63,7 +63,16 @@ article {
     margin-bottom: 40px;
 }
 
-aside {
+.aside-1 {
+    top: 20px; /* Ajusta esta distancia según tus necesidades */
+    float: right;
+    width: 25%;
+}
+
+.aside-2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px; /* Ajusta esta distancia según tus necesidades */
     float: right;
     width: 25%;
 }
@@ -86,6 +95,16 @@ ul {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
+}
+
+ul li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li {
+    margin-bottom: 10px;
 }
 
 h1 {

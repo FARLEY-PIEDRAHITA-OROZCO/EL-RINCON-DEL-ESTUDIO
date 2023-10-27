@@ -19,7 +19,6 @@ header{
     font-size: 20px;
     padding-left: 10px;
     color: #cdcdcd;
-    transition: .3s ease all;
 }
 
 .nav-header{
@@ -50,7 +49,6 @@ header{
     color: #1b1b1b;
     padding: 10px;
     border: solid 1px #858585;
-    transition: .3s ease all;
 }
 
 img{

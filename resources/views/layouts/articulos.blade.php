@@ -17,24 +17,15 @@
         @yield('content')
     </main>
 
-    <aside>
+
+    <aside class="aside-1">
         @yield('aside')
     </aside>
-
-    <aside>
-
-        <h2>En este modulo</h2>
-        <ul>
-            <li><a href="/post1">Título del Post 1</a></li>
-            <li><a href="/post2">Título del Post 2</a></li>
-            <li><a href="/post2">Título del Post 2</a></li>
-            <li><a href="/post2">Título del Post 2</a></li>
-            <li><a href="/post2">Título del Post 2</a></li>
-            <li><a href="/post2">Título del Post 2</a></li>
-            <li><a href="/post2">Título del Post 2</a></li>
-        </ul>
-
+    
+    <aside class="aside-2">
+        @yield('aside-2')
     </aside>
+
 
 
     <footer class="footer">
