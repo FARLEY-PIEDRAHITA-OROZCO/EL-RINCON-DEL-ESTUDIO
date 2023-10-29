@@ -9,6 +9,5 @@
                 <a class="boton" href="/cursos/bases-de-datos"><p class="p-1">BASES DE DATOS</p></a>
             </div>
 
-        </section>
 
 @endsection

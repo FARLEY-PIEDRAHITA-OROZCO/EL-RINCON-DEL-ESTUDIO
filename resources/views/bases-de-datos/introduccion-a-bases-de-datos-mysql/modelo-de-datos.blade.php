@@ -141,7 +141,7 @@
                 border: 2px solid #ccc;
                 padding: 20px;
                 border-radius: 10px;
-                width: 600px;
+                width: 550px;
                 text-align: center;
                 margin: 20px auto;
             }

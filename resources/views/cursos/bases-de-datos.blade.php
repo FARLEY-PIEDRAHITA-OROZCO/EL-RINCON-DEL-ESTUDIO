@@ -13,7 +13,7 @@
             </div>
             <div class="box-1">
                 <img src="/images/bases-de-datos/material2.png" alt="" >
-                <a class="boton" href="/bases-de-datos/elicitacion-de-requisitos/introduccion"><p class="p-1">MY SQL WORKBENCH</p></a>
+                <a class="boton" href="/bases-de-datos/mysql-workbench/introduccion"><p class="p-1">MY SQL WORKBENCH</p></a>
             </div>
             <div class="box-1">
                 <img src="/images/bases-de-datos/guia1.png" alt="" >
@@ -22,7 +22,7 @@
 
             <div class="box-1">
                 <img src="/images/bases-de-datos/material3.png" alt="" >
-                <a class="boton" href="/bases-de-datos/validacion-de-requisitos/introduccion"><p class="p-1">ESTUDIO DE CASO IMPORT TECH S.A.S</p></a>
+                <a class="boton" href="/bases-de-datos/estudio-de-caso/introduccion"><p class="p-1">ESTUDIO DE CASO IMPORT TECH S.A.S</p></a>
             </div>
             <div class="box-1">
                 <img src="/images/bases-de-datos/guia2.png" alt="" >

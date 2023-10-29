@@ -192,23 +192,23 @@ Route::get('/bases-de-datos/introduccion-a-bases-de-datos-mysql/sistemas-de-gest
 /* ________________________________________________________________________________________________*/
 
 /* MYSQL WORKBENCH */
-Route::get('/bases-de-datos/mysql-workbench/introduccion-mysql-workbench', function () {
-    return view('bases-de-datos.mysql-workbench.introduccion-mysql-workbench');
+Route::get('/bases-de-datos/mysql-workbench/introduccion', function () {
+    return view('bases-de-datos.my-sql-workbench.introduccion');
 });
-Route::get('/bases-de-datos/mysql-workbench/descarga-e-instalacion-mysql', function () {
-    return view('bases-de-datos.mysql-workbench.descarga-e-instalacion-mysql');
+Route::get('/bases-de-datos/my-sql-workbench/descarga-e-instalacion', function () {
+    return view('bases-de-datos.my-sql-workbench.descarga-e-instalacion');
 });
 Route::get('/bases-de-datos/mysql-workbench/software-necesario', function () {
-    return view('bases-de-datos.mysql-workbench.software-necesario');
+    return view('bases-de-datos.my-sql-workbench.software-necesario');
 });
 /* ________________________________________________________________________________________________*/
 
 /*  ESTUDIO DE CASO IMPORT TECH S.A.S */
-Route::get('/bases-de-datos/estudio-de-caso-import-tech/introduccion-estudio-de-caso-import-tech', function () {
-    return view('bases-de-datos.estudio-de-caso-import-tech.introduccion-estudio-de-caso-import-tech');
+Route::get('/bases-de-datos/estudio-de-caso/introduccion', function () {
+    return view('bases-de-datos.estudio-de-caso.introduccion');
 });
-Route::get('/bases-de-datos/estudio-de-caso-import-tech/caso-de-estudio', function () {
-    return view('bases-de-datos.estudio-de-caso-import-tech.caso-de-estudio');
+Route::get('/bases-de-datos/estudio-de-caso/caso-de-estudio', function () {
+    return view('bases-de-datos.estudio-de-caso.caso-de-estudio');
 });
 /* ________________________________________________________________________________________________*/
 
