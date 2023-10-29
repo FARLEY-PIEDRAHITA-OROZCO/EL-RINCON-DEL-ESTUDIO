@@ -72,7 +72,7 @@ article {
 .aside-2 {
     position: -webkit-sticky;
     position: sticky;
-    top: 20px; /* Ajusta esta distancia según tus necesidades */
+    top: 0; /* Ajusta esta distancia según tus necesidades */
     float: right;
     width: 25%;
 }

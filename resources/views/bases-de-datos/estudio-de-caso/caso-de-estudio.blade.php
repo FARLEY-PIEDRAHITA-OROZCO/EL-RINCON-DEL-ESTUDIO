@@ -73,7 +73,7 @@
                     <p>Este es un concepto propio de la informática y, más específicamente, de los lenguajes de programación, aunque también se encuentra relacionado con nociones similares de la matemática y la lógica.
 
                     </p>
-                  </div>
+                </div>
                   <p>
                     En un sentido amplio, un tipo de datos define un conjunto de valores y las operaciones sobre esos valores. Casi todos los lenguajes de programación explícitamente incluyen la notación del tipo de datos, aunque lenguajes diferentes pueden usar terminologías diferentes. La mayor parte de los lenguajes de programación permiten al programador definir tipos de datos adicionales, normalmente combinando múltiples elementos de otros tipos y definiendo las operaciones del nuevo tipo de dato. Por ejemplo, un programador puede crear un nuevo tipo de dato llamado "Persona", contemplando que el dato interpretado como Persona incluya un nombre y una fecha de nacimiento.
                   </p>

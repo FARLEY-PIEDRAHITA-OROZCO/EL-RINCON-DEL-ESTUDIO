@@ -133,6 +133,7 @@
                 </ol>
                 <img style="width: 600px" src="/images/introduccion-a-bases-de-datos/img15.svg" alt="">
                 <p style="text-align: center">Modelo de datos físico</p>
+                
             </section>
         </article>
 

@@ -213,8 +213,11 @@ Route::get('/bases-de-datos/estudio-de-caso/caso-de-estudio', function () {
 /* ________________________________________________________________________________________________*/
 
 /*  EL LENGUAJE SQL */
-Route::get('/bases-de-datos/el-lenguaje-sql/introduccion-el-lenguaje-sql', function () {
-    return view('bases-de-datos.el-lenguaje-sql.introduccion-el-lenguaje-sql');
+Route::get('/bases-de-datos/my-sql/introduccion', function () {
+    return view('bases-de-datos.my-sql.introduccion');
+});
+Route::get('/bases-de-datos/my-sql/que-es-sql', function () {
+    return view('bases-de-datos.my-sql.que-es-sql');
 });
 /* ________________________________________________________________________________________________*/
 

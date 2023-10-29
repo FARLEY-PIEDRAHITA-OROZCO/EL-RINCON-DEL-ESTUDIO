@@ -30,7 +30,7 @@
             </div>
             <div class="box-1">
                 <img src="/images/bases-de-datos/material4.png" alt="" >
-                <a class="boton" href="/bases-de-datos/tecnologias-de-la-informacion/introduccion"><p class="p-1">EL LENGUAJE SQL</p></a>
+                <a class="boton" href="/bases-de-datos/my-sql/introduccion"><p class="p-1">EL LENGUAJE SQL</p></a>
             </div>
             <div class="box-1">
                 <img src="/images/bases-de-datos/guia3.png" alt="" s>
