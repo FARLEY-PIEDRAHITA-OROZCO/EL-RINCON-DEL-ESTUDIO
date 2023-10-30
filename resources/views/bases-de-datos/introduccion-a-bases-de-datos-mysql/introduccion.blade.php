@@ -16,8 +16,37 @@
                 <p>
                     En este módulo se estudiarán los principios y conocimientos generales de las bases de datos relacionales, enfatizando en el motor de MySQL como la herramienta seleccionada para el desarrollo del programa de formación, en este módulo se incluye el estudio de los diferentes modelos para el diseño de las bases de datos, así como las herramientas utilizadas para este propósito, y finaliza con la introducción y el estudio inicial del lenguaje estructurado de consulta SQL.
                 </p>
+                <div class="info-box">
+                    <a href="https://drive.google.com/file/d/1_8RTGFTkaQyHPZ2q9B088CYYZBVCGNPV/view?usp=sharing" target="_blank">Guía de aprendizaje</a>
+                </div>
+
+
             </section>
         </article>
+
+        <style>
+            .info-box {
+                border: 2px solid #ccc;
+                padding: 20px;
+                border-radius: 10px;
+                width: 550px;
+                text-align: center;
+                margin: 20px auto;
+            }
+
+            .info-box a {
+                text-decoration: none;
+                background-color: #0074e4;
+                color: #fff;
+                padding: 10px 20px;
+                border-radius: 5px;
+            }
+
+            .info-box a:hover {
+                background-color: #0058a3;
+            }
+        </style>
+
 @endsection
 
 @section('aside')

@@ -222,7 +222,16 @@ Route::get('/bases-de-datos/my-sql/que-es-sql', function () {
 /* ________________________________________________________________________________________________*/
 
 /* PRUEBAS DE VALIDACION DE DATOS DE MYSQL */
-Route::get('/bases-de-datos/pruebas-de-validacion-de-datos-mysql/introduccion-pruebas-de-validacion-de-datos-mysql', function () {
-    return view('bases-de-datos.pruebas-de-validacion-de-datos-mysql.introduccion-pruebas-de-validacion-de-datos-mysql');
+Route::get('/bases-de-datos/pruebas-de-validacion/introduccion', function () {
+    return view('bases-de-datos.pruebas-de-validacion.introduccion');
+});
+Route::get('/bases-de-datos/pruebas-de-validacion/pruebas', function () {
+    return view('bases-de-datos.pruebas-de-validacion.pruebas');
+});
+Route::get('/bases-de-datos/pruebas-de-validacion/restricciones', function () {
+    return view('bases-de-datos.pruebas-de-validacion.restricciones');
+});
+Route::get('/bases-de-datos/pruebas-de-validacion/ejecucion', function () {
+    return view('bases-de-datos.pruebas-de-validacion.ejecucion');
 });
 /* ________________________________________________________________________________________________*/
