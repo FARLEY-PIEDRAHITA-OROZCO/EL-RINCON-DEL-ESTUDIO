@@ -1,5 +1,4 @@
 <div class="container_footer">
-    <!--
     <div class="box_footer">
         <h2>Soluciones</h2>
         <a class="a-footer" href="">App Desarrollo</a>
@@ -14,7 +13,7 @@
         <a class="a-footer" href="">Procesos</a>
         <a class="a-footer" href="">Servicios</a>
     </div>
-    -->
+
     <div class="box_footer">
         <h2>Redes Sociales</h2>
         <a class="a-footer" href="https://github.com/FARLEY-PIEDRAHITA-OROZCO" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>

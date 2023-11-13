@@ -16,13 +16,10 @@ use Illuminate\Support\Facades\Route;
 
 /* Rutas principales */
 
-/* Route::view('/', 'software'); */
-Route::view('/', 'cursos');
+Route::view('/', 'software');
+Route::view('/matematicas', 'matematicas');
+Route::view('/cursos', 'cursos');
 Route::view('/contacto', 'contacto');
-
-/* Envio de formulario */
-Route::post('/procesar_formulario', 'FormularioController@procesar');
-
 
 /* Rutas de la carpeta software */
 /* CARACTERIZACION DE PROCESOS */
