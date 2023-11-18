@@ -237,3 +237,28 @@ Route::get('/bases-de-datos/pruebas-de-validacion/ejecucion', function () {
     return view('bases-de-datos.pruebas-de-validacion.ejecucion');
 });
 /* ________________________________________________________________________________________________*/
+
+/* BASES DE DATOS NO SQL */
+Route::get('/cursos/bases-de-datos-nosql', function () {
+    return view('/cursos.bases-de-datos-nosql');
+});
+
+/* INTRODUCCIÓN A BASES DE DATOS NOSQL */
+Route::get('/cursos/bases-de-datos-nosql/introduccion-a-bases-de-datos-nosql/introduccion', function () {
+    return view('bases-de-datos-nosql.introduccion-bases-de-datos-nosql.introduccion');
+});
+Route::get('/cursos/bases-de-datos-nosql/introduccion-a-bases-de-datos-nosql/introduccion-a-bases-de-datos-nosql', function () {
+    return view('bases-de-datos-nosql.introduccion-bases-de-datos-nosql.introduccion-a-bases-de-datos-nosql');
+});
+Route::get('/cursos/bases-de-datos-nosql/introduccion-a-bases-de-datos-nosql/nosql-con-mongo-db', function () {
+    return view('bases-de-datos-nosql.introduccion-bases-de-datos-nosql.nosql-con-mongo-db');
+});
+Route::get('/cursos/bases-de-datos-nosql/introduccion-a-bases-de-datos-nosql/manipulacion-db-con-mongo', function () {
+    return view('bases-de-datos-nosql.introduccion-bases-de-datos-nosql.manipulacion-db-con-mongo');
+});
+/* ________________________________________________________________________________________________*/
+
+/* CREACION DE BASES DE DATOS NOSQL */
+Route::get('/cursos/bases-de-datos-nosql/creacion-bases-de-datos-nosql/introduccion', function () {
+    return view('bases-de-datos-nosql.creacion-bases-de-datos-nosql.introduccion');
+});
