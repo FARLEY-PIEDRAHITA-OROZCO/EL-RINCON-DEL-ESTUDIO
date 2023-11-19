@@ -15,7 +15,7 @@
 
             <div class="box-1">
                 <img src="/images/bases-de-datos/material3.png" alt="" >
-                <a class="boton" href="/bases-de-datos/estudio-de-caso/introduccion"><p class="p-1">ESTUDIO DE CASO IMPORT TECH S.A.S</p></a>
+                <a class="boton" href="/bases-de-datos/estudio-de-caso/introduccion"><p class="p-1">ESTUDIO DE CASO IMPORT TECH</p></a>
             </div>
 
             <div class="box-1">
@@ -26,7 +26,7 @@
             <div class="box-1">
 
             <div class="box-1">
-                <img src="/images/bases-de-datos/material5.png" alt="" >
+                <img style="width: 200px; height: 195px;" src="/images/bases-de-datos/material5.png" alt="" >
                 <a class="boton" href="/bases-de-datos/pruebas-de-validacion/introduccion"><p class="p-1">PRUEBAS DE VALIDACIÓN DE DATOS MYSQL</p></a>
             </div>
 @endsection

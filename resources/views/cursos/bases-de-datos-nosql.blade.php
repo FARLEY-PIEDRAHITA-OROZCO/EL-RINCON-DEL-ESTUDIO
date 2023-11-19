@@ -10,6 +10,6 @@
 
             <div class="box-1">
                 <img src="/images/bases-de-datos-nosql/material2.png" alt="" >
-                <a class="boton" href="/cursos/bases-de-datos-nosql/creacion-bases-de-datos-nosql/introduccion"><p class="p-1">CREACIÓN DE BASES DE DATOS NOSQL</p></a>
+                <a class="boton" href="/cursos/bases-de-datos-nosql/creacion-bases-de-datos-nosql/introduccion"><p class="p-1">CREACIÓN DE BASES DE DATOS <br> NOSQL</p></a>
             </div>
 @endsection

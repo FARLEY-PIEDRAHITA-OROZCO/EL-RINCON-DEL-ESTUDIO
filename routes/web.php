@@ -262,3 +262,12 @@ Route::get('/cursos/bases-de-datos-nosql/introduccion-a-bases-de-datos-nosql/man
 Route::get('/cursos/bases-de-datos-nosql/creacion-bases-de-datos-nosql/introduccion', function () {
     return view('bases-de-datos-nosql.creacion-bases-de-datos-nosql.introduccion');
 });
+Route::get('/cursos/bases-de-datos-nosql/creacion-bases-de-datos-nosql/bases-de-datos-en-la-nube', function () {
+    return view('bases-de-datos-nosql.creacion-bases-de-datos-nosql.bases-de-datos-en-la-nube');
+});
+Route::get('/cursos/bases-de-datos-nosql/creacion-bases-de-datos-nosql/mongodb-atlas', function () {
+    return view('bases-de-datos-nosql.creacion-bases-de-datos-nosql.mongodb-atlas');
+});
+Route::get('/cursos/bases-de-datos-nosql/creacion-bases-de-datos-nosql/firebase', function () {
+    return view('bases-de-datos-nosql.creacion-bases-de-datos-nosql.firebase');
+});
