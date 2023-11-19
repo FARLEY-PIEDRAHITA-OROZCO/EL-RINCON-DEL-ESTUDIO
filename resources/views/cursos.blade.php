@@ -14,5 +14,10 @@
                 <a class="boton" href="/cursos/bases-de-datos-nosql"><p class="p-1">BASES DE DATOS NOSQL</p></a>
             </div>
 
+            <div class="box-1">
+                <img src="images/curso-python/1.svg" alt="">
+                <a class="boton" href="/cursos/python"><p class="p-1">VARIABLES Y ESTRUCTURAS DE CONTROL EN PYTHON</p></a>
+            </div>
+
 
 @endsection

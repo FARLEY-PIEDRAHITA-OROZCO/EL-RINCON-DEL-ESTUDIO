@@ -177,6 +177,14 @@ Route::get('/software/validacion-de-requisitos/introduccion', function () {
 Route::get('/cursos/bases-de-datos', function () {
     return view('/cursos.bases-de-datos');
 });
+/* BASES DE DATOS NO SQL */
+Route::get('/cursos/bases-de-datos-nosql', function () {
+    return view('/cursos.bases-de-datos-nosql');
+});
+/* VARIABLES Y ESTRUCTURAS DE CONTROL EN PYTHON */
+Route::get('/cursos/python', function () {
+    return view('/cursos.python');
+});
 
 /* INTRODUCCIÓN A BASES DE DATOS MYSQL */
 Route::get('/cursos/bases-de-datos/introduccion-a-bases-de-datos-mysql/introduccion', function () {
@@ -238,10 +246,6 @@ Route::get('/bases-de-datos/pruebas-de-validacion/ejecucion', function () {
 });
 /* ________________________________________________________________________________________________*/
 
-/* BASES DE DATOS NO SQL */
-Route::get('/cursos/bases-de-datos-nosql', function () {
-    return view('/cursos.bases-de-datos-nosql');
-});
 
 /* INTRODUCCIÓN A BASES DE DATOS NOSQL */
 Route::get('/cursos/bases-de-datos-nosql/introduccion-a-bases-de-datos-nosql/introduccion', function () {
