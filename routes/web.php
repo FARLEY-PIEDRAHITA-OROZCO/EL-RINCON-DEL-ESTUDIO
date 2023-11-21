@@ -275,3 +275,25 @@ Route::get('/cursos/bases-de-datos-nosql/creacion-bases-de-datos-nosql/mongodb-a
 Route::get('/cursos/bases-de-datos-nosql/creacion-bases-de-datos-nosql/firebase', function () {
     return view('bases-de-datos-nosql.creacion-bases-de-datos-nosql.firebase');
 });
+
+// VARIABLES Y ESTRUCTURAS DE CONTROL EN PYTHON
+/* TERMINOS ASOCIADOS AL TIPO DE DATOS */
+Route::get('/cursos/curso-python/terminos/introduccion', function () {
+    return view('curso-python.terminos.introduccion');
+});
+Route::get('/cursos/curso-python/terminos/instalacion', function () {
+    return view('curso-python.terminos.instalacion');
+});
+Route::get('/cursos/curso-python/terminos/tipos', function () {
+    return view('curso-python.terminos.tipos');
+});
+
+/* ENTRADA Y SALIDA DE DATOS CON PYTHON */
+Route::get('/cursos/curso-python/entrada-y-salida/introduccion', function () {
+    return view('curso-python.entrada-y-salida.introduccion');
+});
+
+/* ENTRADA Y SALIDA DE DATOS CON PYTHON */
+Route::get('/cursos/curso-python/ciclos/introduccion', function () {
+    return view('curso-python.ciclos.introduccion');
+});
